@@ -1,0 +1,24 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:smartbus"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Maps="using:Windows.UI.Xaml.Controls.Maps"
+    x:Class="smartbus.MainPage"
+    mc:Ignorable="d">
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBox x:Name="username_textbox" HorizontalAlignment="Left" Margin="712,308,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="52" Width="438" PlaceholderText="Username"/>
+        <PasswordBox x:Name="pass_textbox" HorizontalAlignment="Left" Margin="712,396,0,0" VerticalAlignment="Top" Height="53" Width="438" PlaceholderText="Password" PasswordChanged="username_pass_PasswordChanged"/>
+        <Button x:Name="loginbuttonuser" Content="Sign In As User" HorizontalAlignment="Left" Margin="712,481,0,0" VerticalAlignment="Top" Click="loginbuttonuser_Click" Height="53" Width="158"/>
+        <Button x:Name="loginbuttondriver" Content="Sign In As Driver" HorizontalAlignment="Left" Margin="999,481,0,0" VerticalAlignment="Top" Height="53" Width="151" Click="loginbuttondriver_Click"/>
+        <Button x:Name="registerbutton" Content="Register" HorizontalAlignment="Left" Margin="833,570,0,0" VerticalAlignment="Top" Width="193" Height="50" Click="registerbutton_Click"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="194" VerticalAlignment="Top" Width="195" Source="Assets/logo.png" />
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="410" Margin="672,260,0,0" VerticalAlignment="Top" Width="524"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="199,0,0,0" TextWrapping="Wrap" Text="    SMART BUS" VerticalAlignment="Top" RenderTransformOrigin="0.563,0.375" Height="194" Width="1085" FontFamily="Bauhaus 93" FontSize="150" BorderThickness="0,0,0,5" IsReadOnly="True"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="15,217,0,0" TextWrapping="Wrap" Text="&quot;The Advanced Bus Boarding System&quot;" VerticalAlignment="Top" Height="78" Width="657" FontSize="38"/>
+        <Image x:Name="image1" Source="Assets/mainpage_2.jpg" HorizontalAlignment="Left" Height="320" Margin="42,300,0,0" VerticalAlignment="Top" Width="564"/>
+    </Grid>
+    <!--LayoutRoot is the root grid where all page content is placed-->
+
+</Page>

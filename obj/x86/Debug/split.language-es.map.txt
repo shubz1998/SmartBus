@@ -1,0 +1,6 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-es"
+"ResourceDimensions"		"language-es-es"
+
+[Files]
+"C:\Users\shubham\Documents\Visual Studio 2015\Projects\smartbus\smartbus\obj\x86\Debug\split.language-es.pri"			"resources.pri"

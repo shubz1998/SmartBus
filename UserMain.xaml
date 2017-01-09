@@ -1,0 +1,21 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:smartbus"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Maps="using:Windows.UI.Xaml.Controls.Maps"
+    x:Class="smartbus.UserMain"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <Maps:MapControl x:Name="UserMap" HorizontalAlignment="Left" Margin="42,220,0,0" VerticalAlignment="Top" Height="454" Width="701" MapElementClick="UserMap_MapElementClick"/>
+        <Button x:Name="logout_Button" Content="Log Out" HorizontalAlignment="Left" Margin="1120,217,0,0" VerticalAlignment="Top" Click="logout_Button_Click" Height="44" Width="123"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="194" VerticalAlignment="Top" Width="195" Source="Assets/logo.png"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="199,0,0,0" TextWrapping="Wrap" Text="    SMART BUS" VerticalAlignment="Top" RenderTransformOrigin="0.563,0.375" Height="194" Width="1081" FontFamily="Bauhaus 93" FontSize="150" BorderThickness="0,0,0,5" IsReadOnly="True"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="768,199,0,0" TextWrapping="Wrap" Text="User" VerticalAlignment="Top" FontSize="50" Height="79" Width="238"/>
+        <Button x:Name="showdetails" Content="Show Bus Details" HorizontalAlignment="Left" Margin="768,316,0,0" VerticalAlignment="Top" Width="171" Click="showdetails_Click"/>
+        <TextBlock x:Name="details" HorizontalAlignment="Left" Margin="768,384,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="194" Width="475"/>
+    </Grid>
+</Page>

@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="smartbus.RegisterPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:smartbus"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBox x:ConnectionId='1' x:Name="username_regpage" HorizontalAlignment="Left" Margin="653,279,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="50" Width="168" PlaceholderText="Username"/>
+        <PasswordBox x:ConnectionId='2' x:Name="password_regpage" HorizontalAlignment="Left" Margin="653,352,0,0" VerticalAlignment="Top" Height="48" Width="168" PlaceholderText="Password"/>
+        <PasswordBox x:ConnectionId='3' x:Name="passwordcon_regpage" HorizontalAlignment="Left" Margin="653,421,0,0" VerticalAlignment="Top" Height="51" Width="168" PlaceholderText="Re-Enter Password"/>
+        <RadioButton x:ConnectionId='4' x:Name="driver_rbt" Content="As a Driver" HorizontalAlignment="Left" Margin="675,540,0,0" VerticalAlignment="Top" GroupName="customertype"                             />
+        <RadioButton x:ConnectionId='5' x:Name="user_rbt" Content="As a User" HorizontalAlignment="Left" Margin="675,592,0,0" VerticalAlignment="Top" GroupName="customertype"                           />
+        <Button x:ConnectionId='6' x:Name="register_bt" Content="Register" HorizontalAlignment="Left" Margin="964,317,0,0" VerticalAlignment="Top" Height="83" Width="204"                          />
+        <Button x:ConnectionId='7' x:Name="button" Content="Cancel" HorizontalAlignment="Left" Margin="964,497,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.577,-0.719" Height="83" Width="204"                     />
+        <Image x:ConnectionId='8' x:Name="image" HorizontalAlignment="Left" Height="194" VerticalAlignment="Top" Width="195" Source="Assets/logo.png"/>
+        <TextBox x:ConnectionId='9' x:Name="textBox" HorizontalAlignment="Left" Margin="199,0,0,0" TextWrapping="Wrap" Text="    SMART BUS" VerticalAlignment="Top" RenderTransformOrigin="0.563,0.375" Height="194" Width="1081" FontFamily="Bauhaus 93" FontSize="150" BorderThickness="0,0,0,5" IsReadOnly="True"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="119" Margin="653,525,0,0" VerticalAlignment="Top" Width="168"/>
+        <Border BorderBrush="Black" BorderThickness="2" HorizontalAlignment="Left" Height="447" Margin="566,230,0,0" VerticalAlignment="Top" Width="667" AutomationProperties.HelpText="Register Page"/>
+        <TextBlock x:ConnectionId='10' x:Name="textBlock" HorizontalAlignment="Left" Margin="51,340,0,0" TextWrapping="Wrap" Text="Register Page" VerticalAlignment="Top" Height="337" Width="437" FontSize="72" Padding="2" />
+    </Grid>
+</Page>
+

@@ -1,0 +1,5 @@
+MainPackage=C:\Users\shubham\Documents\Visual Studio 2015\Projects\smartbus\smartbus\bin\x86\Debug\smartbus_1.0.10.0_x86_Debug.appx
+ResourcePack=C:\Users\shubham\Documents\Visual Studio 2015\Projects\smartbus\smartbus\bin\x86\Debug\smartbus_1.0.10.0_scale-100.appx
+ResourcePack=C:\Users\shubham\Documents\Visual Studio 2015\Projects\smartbus\smartbus\bin\x86\Debug\smartbus_1.0.10.0_scale-125.appx
+ResourcePack=C:\Users\shubham\Documents\Visual Studio 2015\Projects\smartbus\smartbus\bin\x86\Debug\smartbus_1.0.10.0_scale-150.appx
+ResourcePack=C:\Users\shubham\Documents\Visual Studio 2015\Projects\smartbus\smartbus\bin\x86\Debug\smartbus_1.0.10.0_scale-400.appx

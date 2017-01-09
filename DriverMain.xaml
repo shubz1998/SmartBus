@@ -1,0 +1,30 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:smartbus"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Maps="using:Windows.UI.Xaml.Controls.Maps"
+    x:Class="smartbus.DriverMain"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <Maps:MapControl x:Name="DriverMap" MapServiceToken="AKs4qGlBeOVCM1QL6YsY~dFLxTRCFZAK9cyU6nYjDow~AlfE7e6w-DJpHo-8d-_3-LKJW_sQlhBNMQh37nzvhlcenKKqnZiXCR48G87zL4Cn" HorizontalAlignment="Left" Margin="46,213,0,0" VerticalAlignment="Top" Height="475" Width="742"/>
+        <Button x:Name="logout_Button" Content="Log Out" HorizontalAlignment="Left" Margin="1035,213,0,0" VerticalAlignment="Top" Click="logout_Button_Click" Height="68" Width="201"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="842,326,0,0" TextWrapping="Wrap" Text="Step 1:  Switch ON your bluetooth " VerticalAlignment="Top" Height="49" Width="394" FontSize="22"/>
+        <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Margin="842,380,0,0" TextWrapping="Wrap" Text="Step 2:  Find HC-05 in available devices and connect to it." VerticalAlignment="Top" Height="60" Width="394" FontSize="22"/>
+        <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" Margin="842,463,0,0" TextWrapping="Wrap" Text="Step 3:  Restart the App." VerticalAlignment="Top" Height="51" Width="394" FontSize="22"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="194" VerticalAlignment="Top" Width="195" Source="Assets/logo.png" />
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="195,0,0,0" TextWrapping="Wrap" Text="    SMART BUS" VerticalAlignment="Top" RenderTransformOrigin="0.563,0.375" Height="194" Width="1085" FontFamily="Bauhaus 93" FontSize="150" BorderThickness="0,0,0,5" IsReadOnly="True"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="842,213,0,0" TextWrapping="Wrap" Text="Driver" VerticalAlignment="Top" FontSize="50" Height="79" Width="238"/>
+        <TextBlock x:Name="destinationblock" HorizontalAlignment="Left" Margin="842,536,0,0" TextWrapping="Wrap" Text="Destination Of Bus" VerticalAlignment="Top" Height="48" Width="138"/>
+        <TextBlock x:Name="seatsblock" HorizontalAlignment="Left" Margin="840,589,0,0" TextWrapping="Wrap" Text=" Seat Number (Occupied)" VerticalAlignment="Top" Height="48" Width="138"/>
+        <TextBox x:Name="destination" HorizontalAlignment="Left" Margin="1035,536,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="134" PlaceholderText="Enter Destination"/>
+        <CheckBox x:Name="check_1" Content="1" HorizontalAlignment="Left" Margin="980,584,0,0" VerticalAlignment="Top" Width="25" Height="24"/>
+        <CheckBox x:Name="check_2" Content="2" HorizontalAlignment="Left" Margin="1040,584,0,0" VerticalAlignment="Top" Width="25" Height="24"/>
+        <CheckBox x:Name="check_3" Content="3" HorizontalAlignment="Left" Margin="1100,584,0,0" VerticalAlignment="Top" Width="25" Height="24"/>
+        <CheckBox x:Name="check_4" Content="4" HorizontalAlignment="Left" Margin="1160,584,0,0" VerticalAlignment="Top" Width="25" Height="24"/>
+        <Button x:Name="submit" Content="Submit" HorizontalAlignment="Left" Margin="962,642,0,0" VerticalAlignment="Top" Width="75" Height="46" Click="submit_Click"/>
+    </Grid>
+</Page>

@@ -1,0 +1,8 @@
+﻿[ResourceMetadata]
+"ResourceId"			"filemap.scale-125"
+"ResourceDimensions"		"scale-125"
+
+[Files]
+"C:\Users\shubham\Documents\Visual Studio 2015\Projects\smartbus\smartbus\obj\x86\Debug\filemap.scale-125.pri"			"resources.pri"
+"C:\Users\shubham\Documents\Visual Studio 2015\Projects\smartbus\smartbus\obj\x86\Debug\PackageLayout\Assets\SplashScreen.scale-125.png"			"Assets\SplashScreen.scale-125.png"
+"C:\Users\shubham\Documents\Visual Studio 2015\Projects\smartbus\smartbus\obj\x86\Debug\PackageLayout\Assets\BadgeLogo.scale-125.png"			"Assets\BadgeLogo.scale-125.png"

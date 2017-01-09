@@ -1,0 +1,1 @@
+MainPackage=C:\Users\shubham\Documents\Visual Studio 2015\Projects\smartbus\smartbus\bin\x64\Debug\smartbus_1.0.7.0_x64_Debug.appx
